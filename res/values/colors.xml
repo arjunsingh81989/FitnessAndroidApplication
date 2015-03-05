@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- BACKGROUND COLOR -->
+	<color name="start_color_default">#FFFFFF</color>
+    <color name="end_color_default">#FFFFFF</color>
+    	
+	<!-- BACKGROUND COLOR PRESSED -->
+	<color name="start_color_pressed">#ff3590c4</color>
+    <color name="end_color_pressed">#ff2570ba</color>
+    
+    <!-- TEXT COLORS -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+</resources>

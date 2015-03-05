@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffd3d3d3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@layout/header_gradient"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:onClick="onClick"
+            android:src="@drawable/logout_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/home"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:onClick="onClick"
+            android:src="@drawable/setting_icon" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="0dip"
+        android:layout_height="30dip" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        
+        
+        
+        
+        
+       
+        android:text="@string/welcome"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dip" >
+
+        <LinearLayout
+            android:id="@+id/goToRunItem"
+       
+            style="@style/screen_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:minHeight="50dip"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <TextView
+               
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/go_on_a_run" />
+
+            <ImageView
+               
+                android:src="@drawable/right_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/myArchiveItem"
+            style="@style/screen_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:minHeight="50dip"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <TextView
+               
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/my_archive" />
+
+            <ImageView
+                style="@style/right_arrow_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/myFriendItem"
+            style="@style/screen_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:minHeight="50dip"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <TextView
+              
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/my_friends" />
+
+            <ImageView
+                style="@style/right_arrow_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/upgradeItem"
+            style="@style/screen_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:minHeight="50dip"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <TextView
+             
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/upgrade1" />
+
+            <ImageView
+                style="@style/right_arrow_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+        </LinearLayout>
+                
+                
+                
+                
+                        <LinearLayout
+            android:id="@+id/friendsItem"
+            style="@style/screen_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:minHeight="50dip"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <TextView
+             
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Friends" />
+
+            <ImageView
+                style="@style/right_arrow_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+        </LinearLayout>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <LinearLayout
+            android:id="@+id/OptionItem"
+             style="@style/screen_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:minHeight="50dip"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <TextView
+             
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/options" />
+
+            <ImageView
+                style="@style/right_arrow_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

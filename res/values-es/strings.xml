@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_settings">Settings</string>
+    <string name="app_name">Manifestación</string>
+    <string name="action_settings">Configuración</string>
+    <string name="hello_world">¡Hola, mundo!</string>
+  	<string name="service_start">Activar servicio de registro</string>
+    <string name="service_gpsstatus">Inicio de sesión: %1$s (%2$s with %3$d satélites)</string>
+    <string name="service_gpsnostatus">Inicio de sesión: %1$s (Precisión %2$s)</string>
+    <string name="service_networkstatus">Inicio de sesión: %1$s (%2$s con la antena de telefonía móvil y Wi-Fi)</string>
+    <string name="service_gpsdisabled">GPS está desactivado, el registro queda sin efecto.</string>
+    <string name="service_gpsenabled">GPS está activado, comienza el registro.</string>
+    <string name="service_connectiondisabled">Network está desactivada, el registro de ubicación de red no tiene efecto.</string>
+    <string name="service_datadisabled">Posicionamiento de red está desactivada, el registro queda sin efecto.</string>
+    <string name="service_dataenabled">Posicionamiento de red está habilitada, a partir del registro.</string>
+    <string name="service_gpsproblem">Al no recibir información de ubicación</string>
+    <string name="time_and_speed">En %1$s ir %2$s</string>
+    <string name="home">Casa</string>
+    <string name="welcome">Bienvenido!</string>
+    <string name="logout">Logout</string>
+    <string name="language">Language / Idioma</string>
+    <string name="unit">Unidad</string>
+    <string name="user">Usuario</string>
+    <string name="login">Iniciar</string>
+    <string name="options">Opciones</string>
+    <string name="password">Contraseña</string>
+    <string name="new_register_account">Nuevo en acount? Regístrese aquí</string>
+    <string name="app_references">Preferencias de la aplicación</string>
+    <string name="account_setting">Cuenta de Ajuste</string>
+    <string name="profile_setting">Configuración de perfiles del</string>
+    <string name="upgrade">•Mejorar</string>
+     <string name="upgrade1">Mejorar</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="delete_account">Eliminar cuenta</string>
+    <string name="init_conversion">• Conversión de unidades:</string>
+    <string name="app_language">• Idioma:</string>
+    <string name="app_age">• Edad:</string>
+    <string name="app_gender">• Género:</string>
+    <string name="app_height">• Altura:</string>
+    <string name="app_weight">• Peso: Corriente:</string>
+    <string name="app_current">Corriente:</string>
+    <string name="app_goal">Objetivo:</string>
+    
+    <!-- Archive Activity -->
+    <string name="view_an_old_run">Ver una antigua carrera</string>
+    <string name="date">Fecha</string>
+    <string name="time">Tiempo</string>
+    <string name="distance">Distancia</string>
+    <string name="calories">Calorías</string>
+    
+     <!-- Home Activity -->
+     <string name="go_on_a_run">Ir en un plazo</string>
+     <string name="my_archive">Mi Archivo</string>
+    <string name="my_friends">Mis Amigos</string>
+    
+    <!-- Register -->
+    <string name="register">Registro</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="confirm_the_password">Confirmar la contraseña</string>
+    <string name="weight">Peso</string>
+    <string name="user_type">Tipo de usuario</string>
+    <string name="register_new_account">Registra una cuenta nueva</string>
+    <string name="account_exist">¿Ya tiene cuenta! Ingresa aquí</string>
+    
+    <!-- Run option activity -->
+    <string name="running_option">Ejecución de Opción</string>
+    <string name="timed_run">Timed Run</string>
+    <string name="distance_run">Distancia Run</string>
+    <string name="calorie_run">Calorie Run</string>
+    <string name="free_run">Free Run</string>
+    <string name="smart_run">Inteligente Run</string>
+    <string name="friend_run">Friend Run</string>
+    <string name="begin">Comenzar!</string>
+    
+    <!-- Upgrade activity -->
+    <string name="card_type">Tipo de tarjeta:</string>
+    <string name="card">Tarjeta #:</string>
+    <string name="exp_date">Exp. Fecha:</string>
+    <string name="security">Deguridad #:</string>
+    <string name="agree_term">Estoy de acuerdo con los términos</string>
+</resources>

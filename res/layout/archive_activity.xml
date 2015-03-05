@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffd3d3d3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@layout/header_gradient"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/backbtn"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:onClick="onClick"
+            android:src="@drawable/home_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/view_an_old_run"
+
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/date"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/background_view_rounded_middle"
+            android:clickable="true"
+           android:gravity="center_horizontal|center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:text="@string/date" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/dateIv"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:src="@drawable/arrow_up" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:id="@+id/time"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/background_view_rounded_middle"
+            android:clickable="true"
+           android:gravity="center_horizontal|center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:text="@string/time" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/timeIv"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:src="@drawable/arrow_up" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:id="@+id/distance"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/background_view_rounded_middle"
+            android:clickable="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:text="@string/distance" />
+
+
+            <ImageView
+                android:id="@+id/distanceIv"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:onClick="onClick"
+                android:visibility="gone"
+                android:src="@drawable/arrow_up" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:id="@+id/calories"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/background_view_rounded_middle"
+            android:clickable="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                 android:text="@string/calories" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/caloryIv"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:onClick="onClick"
+                android:src="@drawable/arrow_up" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black" />
+
+    <ListView
+        android:id="@+id/archiveList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </ListView>
+
+</LinearLayout>

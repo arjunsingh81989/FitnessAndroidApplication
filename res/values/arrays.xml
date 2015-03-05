@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="card_type">
+        <item>Discovery</item>
+        <item>Test 1</item>
+        <item>Test 1</item>
+         </string-array>
+      <string-array name="unit">
+        <item>test 1</item>
+        <item>Test 2</item>
+    </string-array>
+    <string-array name="user_type">
+        <item>Free</item>
+        <item>Premium</item>
+    </string-array>
+    <string-array name="lang">
+        <item>English</item>
+        <item>Spanish</item>
+   
+    </string-array>
+    <string-array name="gender">
+        <item>Male / Macho</item>
+        <item>Female / Femenino</item>
+    </string-array>
+      <string-array name="state_choices">
+        <item>Active</item>
+        <item>Paused</item>
+        <item>Stopped</item>
+    </string-array>
+    <string-array name="precision_choices">
+        <item>Custom</item>
+        <item>Fine</item>
+        <item>Normal</item>
+        <item>Coarse</item>
+        <item>Global network</item>
+    </string-array>
+</resources>

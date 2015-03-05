@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="card_type">
+        <item>Descubrimiento</item>
+        <item>Prueba 1</item>
+        <item>Prueba 2</item>
+         </string-array>
+      <string-array name="unit">
+        <item>Prueba 1</item>
+        <item>Prueba 2</item>
+    </string-array>
+    <string-array name="user_type">
+        <item>Libre</item>
+        <item>Prima</item>
+    </string-array>
+    <string-array name="lang">
+        <item>Inglés</item>
+        <item>Español</item>
+       
+    </string-array>
+   
+        <string-array name="gender">
+        <item>Male / Macho</item>
+        <item>Female / Femenino</item>
+    </string-array>
+
+      <string-array name="state_choices">
+        <item>Activo</item>
+        <item>En pausa</item>
+        <item>Detenido</item>
+    </string-array>
+    <string-array name="precision_choices">
+        <item>Costumbre</item>
+        <item>Multa</item>
+        <item>Normal</item>
+        <item>Grueso</item>
+        <item>Red Mundial</item>
+    </string-array>
+</resources>
