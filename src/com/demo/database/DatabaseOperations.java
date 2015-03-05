@@ -1,8 +1,4 @@
-/*
- 
-    Aurhor of DatabaseOperations.java : Arjun Singh
- 
- */
+
 
 package com.demo.database;
 
